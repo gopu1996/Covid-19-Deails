@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    justify-content: center;
+    width: 85%;
+    background-color:white;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.indiaChart{
+    margin: 50px 0;  
+}
+
+.stateGrid{
+   justify-content: center;
+}
+
+@media only screen and (max-width: 770px) {
+  .container {
+    width: 100%;
+  }
+}
